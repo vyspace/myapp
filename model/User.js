@@ -2,12 +2,12 @@
 let username = Symbol('username'),
 	password = Symbol('password');
 class User {
-	constructor(username='', password='') {
-		this[username] = 'aaa';
-		this[password] = 'bbb';
+	constructor(_username='', _password='') {
+		this[username] = _username;
+		this[password] = _password;
 	}
 	get Username() {
-		return this;
+		return this[username];
 	}
 	set Username(value) {
 		this[username] = value;
