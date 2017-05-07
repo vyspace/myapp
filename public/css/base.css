@@ -1,0 +1,37 @@
+html {
+	overflow-y:auto
+}
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+body,p,form,ul,li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.main {
+	width: 960px;
+	margin: 0 auto;
+}
+.header {
+	border-bottom:1px solid #eee;
+	clear: both;
+	overflow: hidden;
+}
+.header li {
+	float: left;
+}
+.header a {
+	display: block;
+	height: 60px;
+	line-height: 55px;
+}
+.header .nav-left a {
+	padding-right: 30px;
+}
+.header .nav-right {
+	float: right;
+}
+.header .nav-right a {
+	padding-left: 30px;
+}

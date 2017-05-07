@@ -8,7 +8,11 @@ class UserService {
 	}
 	add(){
 		let user = new User('test03', '12345678');
-		this[userDao].add(user);
+		//this[userDao].add(user);
+		//this[userDao].delete(3);
+		this[userDao].load('test').then(function(data) {
+			console.log('service. '+ data[0].username)
+		});
 	}
 }
 module.exports = UserService;

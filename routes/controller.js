@@ -2,7 +2,8 @@
 class Controller {
 	static run(app) {  
         app.use('/', require('./index'));
-        
+        app.use('/login', require('./login'));
+        app.use('/login/handler', require('./loginHandler'));
 
         Controller.errorHandler(app);
     }

@@ -1,0 +1,14 @@
+.login {
+	width: 300px;
+    margin: 0 auto;
+}
+.login label input {
+	width: 240px;
+	padding: 3px 5px;
+}
+.login .mar-b15 {
+	margin-bottom: 15px;
+}
+.login .btn {
+	width: 100px;
+}
