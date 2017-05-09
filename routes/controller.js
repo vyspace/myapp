@@ -2,8 +2,13 @@
 class Controller {
 	static run(app) {  
         app.use('/', require('./index'));
-        
-
+        app.use('/login', require('./login'));
+        app.use('/login/handler', require('./loginHandler'));
+        app.use('/logout', require('./logout'));
+        app.use('/register', require('./register'));
+        app.use('/register/handler', require('./registerHandler'));
+        app.use('/ccap/:time', require('./ccap'));
+        app.use('/user/list', require('./userlist'));
         Controller.errorHandler(app);
     }
     static errorHandler(app) {
