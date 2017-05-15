@@ -7,7 +7,6 @@ GRANT all ON _myapp.* TO 'hello'@'localhost';
 
 SHOW CREATE DATABASE _myapp;  
 
-
 CREATE TABLE user(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	username VARCHAR(255) NOT NULL DEFAULT '',
