@@ -1,0 +1,10 @@
+{
+	"host": "localhost",
+    "post": 3306,
+    "database": "_myapp",
+    "username": "hello",
+    "password": "123456",
+    "connectionLimit": 10,
+    "connectTimeout": 15000,
+    "priorityRange": 3
+}

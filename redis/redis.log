@@ -1,0 +1,149 @@
+750:M 15 May 11:43:34.084 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 750
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+750:M 15 May 11:43:34.108 # Server started, Redis version 3.2.8
+750:M 15 May 11:43:34.109 * The server is now ready to accept connections on port 6379
+750:M 15 May 14:34:06.095 # User requested shutdown...
+750:M 15 May 14:34:06.096 * Saving the final RDB snapshot before exiting.
+750:M 15 May 14:34:06.100 * DB saved on disk
+750:M 15 May 14:34:06.100 * Removing the pid file.
+750:M 15 May 14:34:06.100 # Redis is now ready to exit, bye bye...
+1301:M 15 May 15:04:06.466 * Increased maximum number of open files to 10032 (it was originally set to 256).
+                _._                                                  
+           _.-``__ ''-._                                             
+      _.-``    `.  `_.  ''-._           Redis 3.2.8 (00000000/0) 64 bit
+  .-`` .-```.  ```\/    _.,_ ''-._                                   
+ (    '      ,       .-`  | `,    )     Running in standalone mode
+ |`-._`-...-` __...-.``-._|'` _.-'|     Port: 6379
+ |    `-._   `._    /     _.-'    |     PID: 1301
+  `-._    `-._  `-./  _.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |           http://redis.io        
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+ |`-._`-._    `-.__.-'    _.-'_.-'|                                  
+ |    `-._`-._        _.-'_.-'    |                                  
+  `-._    `-._`-.__.-'_.-'    _.-'                                   
+      `-._    `-.__.-'    _.-'                                       
+          `-._        _.-'                                           
+              `-.__.-'                                               
+
+1301:M 15 May 15:04:06.469 # Server started, Redis version 3.2.8
+1301:M 15 May 15:04:06.469 * DB loaded from disk: 0.000 seconds
+1301:M 15 May 15:04:06.469 * The server is now ready to accept connections on port 6379
+1301:M 15 May 15:27:12.266 * 1 changes in 900 seconds. Saving...
+1301:M 15 May 15:27:12.267 * Background saving started by pid 1408
+1408:C 15 May 15:27:12.291 * DB saved on disk
+1301:M 15 May 15:27:12.368 * Background saving terminated with success
+1301:M 15 May 15:32:13.041 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 15:32:13.042 * Background saving started by pid 1418
+1418:C 15 May 15:32:13.043 * DB saved on disk
+1301:M 15 May 15:32:13.143 * Background saving terminated with success
+1301:M 15 May 15:38:52.794 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 15:38:52.795 * Background saving started by pid 1432
+1432:C 15 May 15:38:52.796 * DB saved on disk
+1301:M 15 May 15:38:52.896 * Background saving terminated with success
+1301:M 15 May 15:43:53.092 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 15:43:53.093 * Background saving started by pid 1462
+1462:C 15 May 15:43:53.094 * DB saved on disk
+1301:M 15 May 15:43:53.193 * Background saving terminated with success
+1301:M 15 May 15:48:54.064 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 15:48:54.065 * Background saving started by pid 1482
+1482:C 15 May 15:48:54.066 * DB saved on disk
+1301:M 15 May 15:48:54.166 * Background saving terminated with success
+1301:M 15 May 15:53:55.082 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 15:53:55.082 * Background saving started by pid 1513
+1513:C 15 May 15:53:55.083 * DB saved on disk
+1301:M 15 May 15:53:55.183 * Background saving terminated with success
+1301:M 15 May 15:58:56.049 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 15:58:56.049 * Background saving started by pid 1539
+1539:C 15 May 15:58:56.050 * DB saved on disk
+1301:M 15 May 15:58:56.150 * Background saving terminated with success
+1301:M 15 May 16:03:57.086 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:03:57.086 * Background saving started by pid 1553
+1553:C 15 May 16:03:57.087 * DB saved on disk
+1301:M 15 May 16:03:57.187 * Background saving terminated with success
+1301:M 15 May 16:08:58.063 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:08:58.064 * Background saving started by pid 1569
+1569:C 15 May 16:08:58.065 * DB saved on disk
+1301:M 15 May 16:08:58.166 * Background saving terminated with success
+1301:M 15 May 16:13:59.050 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:13:59.050 * Background saving started by pid 1586
+1586:C 15 May 16:13:59.051 * DB saved on disk
+1301:M 15 May 16:13:59.152 * Background saving terminated with success
+1301:M 15 May 16:25:50.193 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:25:50.193 * Background saving started by pid 1626
+1626:C 15 May 16:25:50.194 * DB saved on disk
+1301:M 15 May 16:25:50.295 * Background saving terminated with success
+1301:M 15 May 16:30:51.096 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:30:51.097 * Background saving started by pid 1646
+1646:C 15 May 16:30:51.097 * DB saved on disk
+1301:M 15 May 16:30:51.198 * Background saving terminated with success
+1301:M 15 May 16:35:52.046 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:35:52.046 * Background saving started by pid 1666
+1666:C 15 May 16:35:52.047 * DB saved on disk
+1301:M 15 May 16:35:52.147 * Background saving terminated with success
+1301:M 15 May 16:40:53.037 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:40:53.037 * Background saving started by pid 1692
+1692:C 15 May 16:40:53.038 * DB saved on disk
+1301:M 15 May 16:40:53.138 * Background saving terminated with success
+1301:M 15 May 16:45:54.008 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:45:54.009 * Background saving started by pid 1720
+1720:C 15 May 16:45:54.009 * DB saved on disk
+1301:M 15 May 16:45:54.110 * Background saving terminated with success
+1301:M 15 May 16:50:55.025 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:50:55.025 * Background saving started by pid 1761
+1761:C 15 May 16:50:55.027 * DB saved on disk
+1301:M 15 May 16:50:55.126 * Background saving terminated with success
+1301:M 15 May 16:55:56.050 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 16:55:56.051 * Background saving started by pid 1788
+1788:C 15 May 16:55:56.052 * DB saved on disk
+1301:M 15 May 16:55:56.152 * Background saving terminated with success
+1301:M 15 May 17:00:57.056 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 17:00:57.057 * Background saving started by pid 1807
+1807:C 15 May 17:00:57.089 * DB saved on disk
+1301:M 15 May 17:00:57.157 * Background saving terminated with success
+1301:M 15 May 17:05:58.077 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 17:05:58.077 * Background saving started by pid 1846
+1846:C 15 May 17:05:58.078 * DB saved on disk
+1301:M 15 May 17:05:58.179 * Background saving terminated with success
+1301:M 15 May 17:10:59.033 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 17:10:59.033 * Background saving started by pid 1866
+1866:C 15 May 17:10:59.034 * DB saved on disk
+1301:M 15 May 17:10:59.135 * Background saving terminated with success
+1301:M 15 May 17:16:00.085 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 17:16:00.085 * Background saving started by pid 1889
+1889:C 15 May 17:16:00.086 * DB saved on disk
+1301:M 15 May 17:16:00.187 * Background saving terminated with success
+1301:M 15 May 17:21:01.056 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 17:21:01.057 * Background saving started by pid 1909
+1909:C 15 May 17:21:01.058 * DB saved on disk
+1301:M 15 May 17:21:01.157 * Background saving terminated with success
+1301:M 15 May 17:26:02.020 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 17:26:02.020 * Background saving started by pid 1918
+1918:C 15 May 17:26:02.021 * DB saved on disk
+1301:M 15 May 17:26:02.120 * Background saving terminated with success
+1301:M 15 May 17:32:00.302 * 10 changes in 300 seconds. Saving...
+1301:M 15 May 17:32:00.304 * Background saving started by pid 1949
+1949:C 15 May 17:32:00.305 * DB saved on disk
+1301:M 15 May 17:32:00.404 * Background saving terminated with success
+1301:M 15 May 17:36:35.757 # User requested shutdown...
+1301:M 15 May 17:36:35.757 * Saving the final RDB snapshot before exiting.
+1301:M 15 May 17:36:35.757 * DB saved on disk
+1301:M 15 May 17:36:35.757 * Removing the pid file.
+1301:M 15 May 17:36:35.758 # Redis is now ready to exit, bye bye...

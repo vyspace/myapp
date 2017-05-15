@@ -6,9 +6,35 @@ class UserService {
 	constructor() {
 		this[userDao] = new UserDao();
 	}
-	add(){
-		let user = new User('test03', '12345678');
-		this[userDao].add(user);
+	add(user){
+		var t = this;
+		let promise = new Promise(function(resolve, reject) {
+			t[userDao].load(user.Username).then(function(data) {
+				if(data.length > 0) {
+					reject();
+				}
+				else {
+					t[userDao].add(user).then(function() {
+						resolve();
+					});
+				}
+			}).catch(function(err) {
+				if(err) {
+					throw err;
+				}
+			});
+		});
+		return promise;
+	}
+	load(username) {
+		let promise = new Promise(function(resolve, reject) {
+			this[userDao].load(username).then(function(data) {
+				resolve(data);
+			}).catch(function(err) {
+				reject(err)
+			});
+		}.bind(this));	
+		return promise;	
 	}
 }
 module.exports = UserService;

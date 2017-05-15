@@ -1,3 +1,13 @@
+CREATE USER 'hello'@'localhost' IDENTIFIED BY '123456';
+
+CREATE DATABASE _myapp;
+ALTER DATABASE _myapp DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+GRANT all ON _myapp.* TO 'hello'@'localhost';
+
+SHOW CREATE DATABASE _myapp;  
+
+
 CREATE TABLE user(
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 	username VARCHAR(255) NOT NULL DEFAULT '',
